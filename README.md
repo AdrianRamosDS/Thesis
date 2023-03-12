@@ -2,9 +2,8 @@
 <a name="logo"/>
 <div align="center">
 <img src = "images/iteso_logo.png" 
-	 style = "width:390px;height:120px; vertical-align:middle;float:center;margin: 40px 0px 60px 0px;" 
+	 style = "width:360px;height:360px; vertical-align:middle; float:center; margin: 40px 0px 60px 0px;" 
 	 align = "middle">
-
 </div>
 </a>
 
