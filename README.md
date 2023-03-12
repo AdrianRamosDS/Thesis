@@ -58,9 +58,28 @@ This code implements a deep learning model to solve the problem of retrieving an
 		└── cicd.yaml
 		
 
-# Contents
+# Directory Contents
+
+| Directory | Contenidos       |
+| -         | -                |
+| `code/`   | Model experimentation and training code |
+| `data/`   | Data splitted into train, validation y test. Speech audio files in english and spanish|
+| `docs/`   | Documentation    |
+| `figures/`| Graphics of Loss function, R2, signals and metrics        |
+| `models/` | Models artifacts                                             |
+| `mlruns/` | MLflow experimentation traceability. Includes artifacts, model metrics.  |
+| `tests/`    | Unit tests.  |
+| `.github/workflows/`     | GitHub actions for CI/CD pipeline.  |
 
 # Requirements
+
+## List of tasks (completed and undone)
+
+- [x] Basic experimentation tasks:
+	- [x] Audio extraction
+	- [x] Convolution of input matrix with an impulse response.
+	- [x] Lag matrix generation.
+- [x] Traing a functional model and baseline it.
 
 
 # Links
