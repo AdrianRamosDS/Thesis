@@ -9,7 +9,7 @@
 
 # Master Thesis: Deep Learning Approach to remove unwated Acoustic Effects of an Audio Signal
 
-[https://img.shields.io/badge/Python-v3.10-green?style=flat&logo=python]
+[![Python](https://img.shields.io/badge/Python-v3.10-green?style=flat&logo=python])]
 
 
 * [Description](#description)
