@@ -38,6 +38,8 @@ This code implements a deep learning model to solve the problem of retrieving an
 	│	├── english
 	│	└── spanish
 	├── train/
+	│├── english
+	│└── spanish
 	└── val/		
 	docs/	
 	figures/
