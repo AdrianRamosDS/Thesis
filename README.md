@@ -35,11 +35,11 @@ This code implements a deep learning model to solve the problem of retrieving an
 	├── artifacts/
 	├── metadata/
 	├── tst/
-	│  ├── english
-	│  └── spanish
+	│   ├── english
+	│   └── spanish
 	├── train/
-	│ ├── english
-	│ └── spanish
+	│   ├── english
+	│   └── spanish
 	└── val/		
 	docs/	
 	figures/
