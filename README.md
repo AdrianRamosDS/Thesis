@@ -10,7 +10,7 @@
 # Master Thesis: Deep Learning Approach to remove unwated Acoustic Effects of an Audio Signal
 
 ![Python](https://img.shields.io/badge/Python-v3.10-green?style=flat&logo=python])
-
+[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/AdrianRamosDS/Thesis/blob/master/code/Thesis_ARP.ipynb)
 
 * [Description](#description)
 * [Directory Structure](#directory-structure)
