@@ -2,15 +2,15 @@
 <a name="logo"/>
 <div align="center">
 <img src = "images/iteso_logo.png" 
-	 style = "width:260px;height:260px; vertical-align:middle; float:center; margin: 40px 0px 60px 0px;" 
+	 style = "width:190px;height:190px; vertical-align:middle; float:center; margin: 40px 0px 60px 0px;" 
 	 align = "middle">
 </div>
 </a>
 
 # Master Thesis: Deep Learning Approach to remove unwated Acoustic Effects of an Audio Signal
 
-* [Description](#)[Description)
-* [Directory Structure](#Directory-structure)
+* [Description](#description)
+* [Directory Structure](#directory-structure)
 * [Contents](#directory-contents)
 * [Requirements](#requirements)
 * [Links](#links)
@@ -23,42 +23,41 @@ This code implements a deep learning model to solve the problem of retrieving an
 
 
 ## Directory Structure:
-
+	Dockerfile
+	environment.yaml
+	README.md
+	requirements.txt
 	code/
 	├── Thesis_ARP.ipynb
 	└── Thesis_ARP.py
 	data/
-	│	├── artifacts/
-	│	├── metadata/
-	│	├── raw/
-	environment.yaml
-	├── Dockerfile
-	├── README.md
-	├── requirements.txt
-	├── code/
-	│	└──.py
-	├── 
-	│		└── 
-	│	├── test/
-	│	├── train/
-	│	└── val/
-	docs/
+	├── artifacts/
+	├── metadata/
+	├── tst/
+	│	├── english
+	│	└── spanish
+	├── train/
+	└── val/		
+	docs/	
 	figures/
-	├── mlruns/
-	├── models/
-	│	├── artifacts/
-	│	├── metadata/
-	│	└── others/
+	├── metrics/
+	mlruns/
+	models/
+	├── artifacts/
+	├── metadata/
+	└── others/
 	tests/
-	│	├── unit
-	│	├── integration
-	│	└──
+	├── unit/
+	├── integration/
+	└── other/
+	utilities/
+	├── 
 	.github/
 	└── workflows/
 		└── cicd.yaml
 		
 
-# Directory Contents
+## Directory Contents
 
 | Directory | Contenidos       |
 | -         | -                |
@@ -71,7 +70,18 @@ This code implements a deep learning model to solve the problem of retrieving an
 | `tests/`    | Unit tests.  |
 | `.github/workflows/`     | GitHub actions for CI/CD pipeline.  |
 
-# Requirements
+## Requirements
+
+- python==3.10.0
+- numpy
+- pandas
+- librosa
+- matplotlib
+- tensorflow
+- pytorch
+- xgboost
+- mlflow==2.1.0
+
 
 ## List of tasks (completed and undone)
 
