@@ -14,7 +14,7 @@
 * [Contents](#directory-contents)
 * [Requirements](#requirements)
 * [Links](#links)
-* [Contact](#contact)
+* [Contact](#contact-)
 
 ## Description
 
@@ -23,6 +23,7 @@ This code implements a deep learning model to solve the problem of retrieving an
 
 
 ## Directory Structure:
+
 	Dockerfile
 	environment.yaml
 	README.md
@@ -92,10 +93,10 @@ This code implements a deep learning model to solve the problem of retrieving an
 - [x] Traing a functional model and baseline it.
 
 
-# Links
+## Links
 
 
-# Contact 📫
+## Contact 📫
 
 E-Mail: <a href="mailto:adrian.ramos@iteso.mx">adrian.ramos@iteso.mx</a> / <a href="mailto:ing.adrian.ramos@outlook.com">ing.adrian.ramos@outlook.com</a> / <a href="mailto:adrian.ramos.ds@gmail.com">adrian.ramos.ds@gmail.com</a></li>
 
