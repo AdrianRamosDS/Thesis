@@ -8,6 +8,8 @@
 </a>
 
 # Master Thesis: Deep Learning Approach to remove unwated Acoustic Effects of an Audio Signal
+================================================
+|Python Version|
 
 * [Description](#description)
 * [Directory Structure](#directory-structure)
@@ -35,24 +37,28 @@ This code implements a deep learning model to solve the problem of retrieving an
 	├── artifacts/
 	├── metadata/
 	├── tst/
-	│   ├── english
-	│   └── spanish
+	│   ├── english/
+	│   └── spanish/
 	├── train/
-	│   ├── english
-	│   └── spanish
+	│   ├── english/
+	│   └── spanish/
 	└── val/		
 	docs/	
 	figures/
+	├── loss/
 	├── metrics/
+	└── signals/
 	mlruns/
 	models/
 	├── artifacts/
+	│   ├── tdnn
+	│   └── xgb
 	├── metadata/
 	└── others/
 	tests/
 	├── unit/
 	├── integration/
-	└── other/
+	└── others/
 	utilities/
 	├── 
 	.github/
@@ -83,6 +89,8 @@ This code implements a deep learning model to solve the problem of retrieving an
 - tensorflow
 - pytorch
 - xgboost
+- catboost
+- lightgbm
 - mlflow==2.1.0
 
 
