@@ -9,8 +9,8 @@
 
 # Master Thesis: Deep Learning Approach to remove unwated Acoustic Effects of an Audio Signal
 
-![Python](https://img.shields.io/badge/Python-v3.10-green?style=flat&logo=python])
-[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/AdrianRamosDS/Thesis/blob/master/code/Thesis_ARP.ipynb)
+![Python](https://img.shields.io/badge/Python-v3.10-green?style=flat&logo=Python])
+[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/AdrianRamosDS/Thesis/blob/master/code/thesis_arp.ipynb)
 
 * [Description](#description)
 * [Directory Structure](#directory-structure)
@@ -27,19 +27,19 @@ This code implements a deep learning model to solve the problem of retrieving an
 
 ## Directory Structure:
 
-	Dockerfile
-	environment.yaml
-	README.md
-	requirements.txt
-	code/
-	├── Thesis_ARP.ipynb
-	└── Thesis_ARP.py
-	data/
-	├── artifacts/
-	├── metadata/
-	├── tst/
-	│   ├── english/
-	│   └── spanish/
+	├── Dockerfile
+	├── environment.yaml
+	├── README.md
+	├── requirements.txt
+	├── code/
+	│	├── Thesis_ARP.ipynb
+	│	└── Thesis_ARP.py
+	├── data/
+	│	├── artifacts/
+	│	├── metadata/
+	│	├── tst/
+	│   	├── english/
+	│   	└── spanish/
 	├── train/
 	│   ├── english/
 	│   └── spanish/
