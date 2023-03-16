@@ -36,35 +36,35 @@ This code implements a deep learning model to solve the problem of retrieving an
 	│   └── Thesis_ARP.py
 	├── data/
 	│   ├── artifacts/
-	│    ├── metadata/
-	│	├── tst/
+	│   ├── metadata/
+	│   ├── tst/
 	│   │   ├── english/
 	│   │   └── spanish/
-	│	├── train/
+	│   ├── train/
 	│   │   ├── english/
 	│   │   └── spanish/
-	│	└── val/		
-	docs/	
-	figures/
-	├── loss/
-	├── metrics/
-	└── signals/
-	mlruns/
-	models/
-	├── artifacts/
-	│   ├── tdnn
-	│   └── xgb
-	├── metadata/
+	│   └── val/		
+	├── docs/	
+	├── figures/
+	│   ├── loss/
+	│   ├── metrics/
+	│   └── signals/
+	├── mlruns/
+	├── models/
+	│   ├── artifacts/
+	│   │   ├── tdnn
+	│   │   └── xgb
+	│   └──  metadata/
 	└── others/
-	tests/
-	├── unit/
-	├── integration/
-	└── others/
-	utilities/
+	├── tests/
+	│   ├── unit/
+	│   ├── integration/
+	│   └── others/
+	├── utilities/
 	├── 
-	.github/
-	└── workflows/
-		└── cicd.yaml
+	└── .github/
+	   └── workflows/
+		   └── cicd.yaml
 		
 
 ## Directory Contents
