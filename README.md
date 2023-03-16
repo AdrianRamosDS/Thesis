@@ -32,18 +32,18 @@ This code implements a deep learning model to solve the problem of retrieving an
 	├── README.md
 	├── requirements.txt
 	├── code/
-	│	├── Thesis_ARP.ipynb
-	│	└── Thesis_ARP.py
+	│   ├── Thesis_ARP.ipynb
+	│   └── Thesis_ARP.py
 	├── data/
-	│	├── artifacts/
-	│	├── metadata/
+	│   ├── artifacts/
+	│    ├── metadata/
 	│	├── tst/
-	│   	├── english/
-	│   	└── spanish/
-	├── train/
-	│   ├── english/
-	│   └── spanish/
-	└── val/		
+	│   │   ├── english/
+	│   │   └── spanish/
+	│	├── train/
+	│   │   ├── english/
+	│   │   └── spanish/
+	│	└── val/		
 	docs/	
 	figures/
 	├── loss/
