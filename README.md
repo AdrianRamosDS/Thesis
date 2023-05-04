@@ -26,7 +26,7 @@ This code implements a deep learning model to solve the problem of retrieving an
 
 
 ## Directory Structure:
-
+	Thesis/
 	├── Dockerfile
 	├── environment.yaml
 	├── README.md
@@ -49,19 +49,19 @@ This code implements a deep learning model to solve the problem of retrieving an
 	│   ├── loss/
 	│   ├── metrics/
 	│   └── signals/
+	├── images/
 	├── mlruns/
 	├── models/
 	│   ├── artifacts/
 	│   │   ├── tdnn
 	│   │   └── xgb
-	│   └──  metadata/
-	└── others/
+	│   ├── metadata/
+	│   └── others/
 	├── tests/
 	│   ├── unit/
 	│   ├── integration/
 	│   └── others/
-	├── utilities/
-	├── 
+	├── tools/ 
 	└── .github/
 	   └── workflows/
 		   └── cicd.yaml
